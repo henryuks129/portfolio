@@ -1,0 +1,100 @@
+.contact-body{
+    height: 100vh;
+    /* overflow-y: auto; */
+    scroll-behavior: smooth;
+}
+
+.input-body{
+    background: #2D2D2D;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    max-width: 600px;
+    overflow-x: hidden;
+}
+.input-body::-webkit-scrollbar{
+    display:none;
+  }
+
+.input-from{
+    width: 610px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #535353;
+color: #f7f6f6;
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 15px;
+outline: none;
+}
+
+.input-from::placeholder{
+    width: 56px;
+height: 22.915px;
+flex-shrink: 0;
+}
+
+.input-subject{
+    width: 610px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #535353;
+color: #f7f6f6;
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 15px;
+outline: none;
+border: none;
+}
+
+.input-subject::placeholder{
+    width: 56px;
+height: 22.915px;
+flex-shrink: 0;
+}
+
+.input-message-box{
+    width: 610px;
+height: 331px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #535353;
+color: #CBCBCB;
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+outline: none;
+/* padding: 15px; */
+padding-top: 0px;
+}
+
+.input-message-boxt::placeholder{
+    width: 159px;
+height: 22.403px;
+flex-shrink: 0;
+}
+
+.input-button{
+    width: 303px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 3px;
+background: #FFF;
+color: #292727;
+font-family: Lato;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+

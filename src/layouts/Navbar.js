@@ -23,7 +23,7 @@ const Navbar = () => {
             <Link to={"/"} className="text-decoration-none text-white">
               <li>Resume</li>
             </Link>
-            <Link to={"/"} className="text-decoration-none text-white">
+            <Link to={"/Contacts"} className="text-decoration-none text-white">
               <li>Contact</li>
             </Link>
           </ul>
