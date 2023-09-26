@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className='home-main'>
       <Navbar/>
-      <div className='container d-flex'>
+      <div className='container d-flex mt-4'>
        <div className='text-white pt-5 mt-5 home-body w-100'>
         <button className='pushable'><span className='front'>Full Stack Developer</span></button>
         <h1 className='mt-3'>UKIWA HENRY OSOSE</h1>
