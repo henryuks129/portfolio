@@ -7,8 +7,8 @@ import '../styles/Contacts.css'
 
 const Contact = () => {
   return (
-    <div className='container text-white d-flex project-main w-100 contact-body'>
-        <div className="project-body-intro w-100 d-none d-lg-block">
+    <div className=' text-white d-flex project-main w-100 contact-body'>
+        <div className="w-100 container d-none d-lg-block">
         <header className="mt-4">
           <Link to={"/"} className="text-decoration-none">
             <h1 className="header-name mb-4">HENRY.</h1>
@@ -41,7 +41,7 @@ const Contact = () => {
           <div className="w-100">
             <Lottie
               animationData={working}
-              className="lottie-animated-image"
+              className="lottie-animated-images"
             />
           </div>
         </div>
@@ -49,18 +49,20 @@ const Contact = () => {
           <Footer />
         </div>
       </div>
-      <div className='container w-100 input-body'>
-        <div>
+      <div className=' w-100 input-body'>
+       <div className='container'>
+       <div className='mt-4 mb-4'>
           <h1>Send A Message</h1>
         </div>
         <form action="">
-          <input type="text" className='input-from' placeholder='From:'/> <br /><br />
-          <input type="text" className='input-subject' placeholder='Subject:'/> <br /><br />
-          <input type="text" className='input-message-box' placeholder='Write message...'/> <br /><br /><br />
-          <div className='text-center'>
+          <input type="text" className='input-from mt-2' placeholder='From:'/> <br /><br />
+          <input type="text" className='input-subject pt-2' placeholder='Subject:'/> <br /><br />
+          <input type="text" className='input-message-box pt-2' placeholder='Write message...'/> <br /><br /><br />
+          <div className=''>
           <Link to={'/'} className='text-center'><button className='input-button'>Send Message</button></Link>
           </div>
         </form>
+       </div>
       </div>
     </div>
   )

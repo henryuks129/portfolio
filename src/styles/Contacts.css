@@ -6,18 +6,18 @@
 
 .input-body{
     background: #2D2D2D;
-    height: 100vh;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-    max-width: 600px;
-    overflow-x: hidden;
+    /* height: 100vh; */
+    /* overflow-y: auto; */
+    /* scroll-behavior: smooth; */
+    /* max-width: 600px; */
+    /* overflow-x: hidden; */
 }
 .input-body::-webkit-scrollbar{
     display:none;
   }
 
 .input-from{
-    width: 610px;
+    width: 400px;
 height: 52px;
 flex-shrink: 0;
 border-radius: 3px;
@@ -39,7 +39,7 @@ flex-shrink: 0;
 }
 
 .input-subject{
-    width: 610px;
+    width: 400px;
 height: 52px;
 flex-shrink: 0;
 border-radius: 3px;
@@ -50,19 +50,23 @@ font-size: 22px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-padding: 15px;
+padding: 10px;
 outline: none;
 border: none;
 }
 
+.lottie-animated-images{
+    height: 70%;
+}
+
 .input-subject::placeholder{
-    width: 56px;
+    /* width: 56px; */
 height: 22.915px;
 flex-shrink: 0;
 }
 
 .input-message-box{
-    width: 610px;
+    width: 400px;
 height: 331px;
 flex-shrink: 0;
 border-radius: 3px;
@@ -76,11 +80,12 @@ line-height: normal;
 outline: none;
 /* padding: 15px; */
 padding-top: 0px;
+border: none;
 }
 
 .input-message-boxt::placeholder{
-    width: 159px;
-height: 22.403px;
+    /* width: 159px; */
+/* height: 22.403px; */
 flex-shrink: 0;
 }
 
@@ -96,5 +101,7 @@ font-size: 22px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+border: none;
+outline: none;
 }
 
