@@ -1,0 +1,55 @@
+.lottie-animated-image{
+    /* height: 55%; */
+}
+
+.project-main{
+    height: 100vh;
+}
+
+.project-body-intro{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.fullstack-button{
+    background: wheat;
+    color: #F16529;
+    font-family: Hammersmith One;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    width: 207px;
+height: 38px;
+
+}
+
+.project-inner-body{
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    background: #2D2D2D;
+}
+
+.project-inner-body::-webkit-scrollbar{
+    display:none;
+  }
+
+.project-display-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.header-name{
+    font-size: 50px;
+    /* text-decoration: none; */
+    color: white;
+}
+
+.movie-display-gallery, .image-gallery, .tradexpress, .perfumery, .jazzy-burger, .taskduty {
+    width: 350px;
+    /* height: 300px; */
+    background-color: gray;
+}

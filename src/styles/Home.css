@@ -1,0 +1,52 @@
+.home-main{
+  height: 100vh;
+}
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 6px 18px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+
+  .contact{
+    background: hsl(246, 100%, 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+
+  .contact:active .front {
+    transform: translateY(-2px);
+  }
+
+  @media screen and (max-width: 575px){
+    .home-body{
+        background-image: url('../assest/personimage.svg') contain;
+    }
+
+    .home-body-flexed{
+        display: none;
+    }
+  }
+
+  .animated-home-image{
+    width: 100%;
+  }
