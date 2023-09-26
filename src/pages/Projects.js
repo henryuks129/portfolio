@@ -7,6 +7,12 @@ import sentroute from "../assest/sentroute.svg";
 import githubicon from "../assest/github.svg";
 import websiteicon from "../assest/websiteicon.svg";
 import { Link } from "react-router-dom";
+import tradexpress from '../assest/tradexpressimage.jpg'
+import moviegallery from '../assest/movie gallery.jpg'
+import jazzyburger from '../assest/jazzy-burger icon.jpg'
+import taskduty from '../assest/taskduty image.jpg'
+import perfumery from '../assest/perfumeryimage.jpg'
+import imagegallery from '../assest/imagegallery.jpg'
 
 const Projects = () => {
   return (
@@ -54,11 +60,13 @@ const Projects = () => {
       </div>
       <div className="w-100 project-inner-body container">
         <section id="projects" className="project-display-section mt-5 w-100">
-          <div className="taskduty w-100 p-2">
+          <div className="taskduty w-100">
+              <img src={taskduty} alt="" className="img-fluid w-100"/>
+            <div className="p-2">
             <div>
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">Task Manager - To-Do List Website</h3>
+            <h3 className="pb-3">Task Manager - To-Do List Website</h3>
             <div className="d-flex gap-2 justify-content-between ">
               <div className="d-flex gap-2 align-items-center">
                 <img src={githubicon} alt="" />
@@ -75,7 +83,7 @@ const Projects = () => {
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
                 <a
-                  href="task-duty-frontend-chs0smiwf-henryuks129.vercel.app"
+                  href="https://task-duty-frontend-e5o5dh19v-henryuks129.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -83,12 +91,15 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-          <div className="jazzy-burger w-100 p-2">
+          <div className="jazzy-burger w-100">
+              <img src={jazzyburger} alt="" className="img-fluid"/>
+            <div className="p-2">
             <div>
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">
+            <h3 className="pb-3">
               Jazzy Burger - Jazzy Burger Clone Website
             </h3>
             <div className="d-flex gap-2 justify-content-between ">
@@ -107,7 +118,7 @@ const Projects = () => {
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
                 <a
-                  href="jazzy-burger-frontend-iatt-iesssyhhv-henryuks129.vercel.app"
+                  href="https://jazzy-burger-frontend.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -115,12 +126,15 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-          <div className="perfumery w-100 p-2">
+          <div className="perfumery w-100">
+            <img src={perfumery} alt="" className="img-fluid"/>
+            <div className="p-2">
             <div>
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">Perfumery - E-commerce Website</h3>
+            <h3 className="pb-3">Perfumery - E-commerce Website</h3>
             <div className="d-flex gap-2 justify-content-between ">
               <div className="d-flex gap-2 align-items-center">
                 <img src={githubicon} alt="" />
@@ -137,7 +151,7 @@ const Projects = () => {
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
                 <a
-                  href="perfumery-client-gxxpba64z-henryuks129.vercel.app"
+                  href="https://perfumery-client.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -145,12 +159,15 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-          <div className="tradexpress w-100 p-2">
+          <div className="tradexpress w-100">
+              <img src={tradexpress} alt="" className="img-fluid"/>
+            <div className="p-2">
             <div>
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">TradExpress - Crypto Website</h3>
+            <h3 className="pb-3">TradExpress - Crypto Website</h3>
             <div className="d-flex gap-2 justify-content-between ">
               <div className="d-flex gap-2 align-items-center">
                 <img src={githubicon} alt="" />
@@ -171,12 +188,15 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-          <div className="image-gallery w-100 p-2">
+          <div className="image-gallery w-100">
+            <img src={imagegallery} alt="" className="img-fluid"/>
+            <div className="p-2">
             <div>
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">
+            <h3 className="pb-3">
               Antique Galleria - Image Gallery Website
             </h3>
             <div className="d-flex gap-2 justify-content-between ">
@@ -195,7 +215,7 @@ const Projects = () => {
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
                 <a
-                  href="hngtask-3-gp7ogmwod-henryuks129.vercel.app"
+                  href="https://hngtask-3-lime.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -203,13 +223,16 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+            </div>
           </div>
-          <div className="movie-display-gallery w-100 p-2">
-            <div className="">
+          <div className="movie-display-gallery w-100">
+              <img src={moviegallery} alt="" className="img-fluid"/>
+             <div className="p-2">
+             <div className="">
               <p className="project-text-body">React, Bootstrap & CSS</p>
             </div>
-            <h3 className="pt-4 pb-4">Movie Display - Movie Display Website</h3>
-            <div className="d-flex gap-2 justify-content-between my-5">
+            <h3 className="pb-3">Movie Display - Movie Display Website</h3>
+            <div className="d-flex gap-2 justify-content-between">
               <div className="d-flex gap-2 align-items-center">
                 <img src={githubicon} alt="" />
                 <p className="pt-3">Github</p>
@@ -225,7 +248,7 @@ const Projects = () => {
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
                 <a
-                  href="hngtask-2-9eo087mhe-henryuks129.vercel.app"
+                  href="https://hngtask-2-chi.vercel.app/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
@@ -233,6 +256,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+             </div>
           </div>
         </section>
       </div>
