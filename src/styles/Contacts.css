@@ -6,7 +6,7 @@
 
 .input-body{
     background: #2D2D2D;
-    /* height: 100vh; */
+    height: 100vh;
     /* overflow-y: auto; */
     /* scroll-behavior: smooth; */
     /* max-width: 600px; */
@@ -30,6 +30,7 @@ font-weight: 400;
 line-height: normal;
 padding: 15px;
 outline: none;
+border: none;
 }
 
 .input-from::placeholder{

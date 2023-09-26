@@ -1,11 +1,19 @@
 import React from 'react'
+import { useState } from 'react'
 import Lottie from 'lottie-react'
 import working from '../assest/animation_ln0q95xh.json'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import Footer from '../layouts/Footer'
+import { Card, Button, Form, Alert } from "react-bootstrap";
 import '../styles/Contacts.css'
 
 const Contact = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState('')
+  const [loading, setLoading] = useState(false)
+  const [message, setMessage] = useState("")
+  const navigate = useNavigate()
   return (
     <div className=' text-white d-flex project-main w-100 contact-body'>
         <div className="w-100 container d-none d-lg-block">
@@ -54,14 +62,24 @@ const Contact = () => {
        <div className='mt-4 mb-4'>
           <h1>Send A Message</h1>
         </div>
-        <form action="">
-          <input type="text" className='input-from mt-2' placeholder='From:'/> <br /><br />
-          <input type="text" className='input-subject pt-2' placeholder='Subject:'/> <br /><br />
-          <input type="text" className='input-message-box pt-2' placeholder='Write message...'/> <br /><br /><br />
-          <div className=''>
-          <Link to={'/'} className='text-center'><button className='input-button'>Send Message</button></Link>
-          </div>
-        </form>
+        
+        <Form action=''>
+            <Form.Group controlId="Email">
+              <Form.Control type="email" onChange={(e) => setEmail(e.target.value)} placeholder='From:' className='input-from w-100' required />
+            </Form.Group> <br /><br />
+            <Form.Group controlId="Password">
+              <Form.Control type="text" onChange={(e) => setPassword(e.target.value)} required placeholder='Subject:' className='input-subject w-100' />
+            </Form.Group> <br /><br />
+            <Form.Group controlId="ConfirmPassword">
+              <Form.Control type="text" onChange={(e) => setMessage(e.target.value)} placeholder='Write message...' className='input-message-box w-100' required />
+            </Form.Group> <br /><br />
+            <div className='text-center'>
+            <Link to={'/'} className=''>
+            <Button type="Submit" className=" input-button">
+              Send Message
+            </Button></Link>
+            </div>
+          </Form>
        </div>
       </div>
     </div>
