@@ -8,9 +8,13 @@
 
 .project-body-intro{
     height: 100vh;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
+
+.project-body-intro::-webkit-scrollbar{
+    display:none;
+  }
 
 .fullstack-button{
     background: wheat;

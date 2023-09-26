@@ -6,7 +6,7 @@ import hamburger from "../assest/hamburger.svg";
 const Navbar = () => {
   return (
     <div className="container sticky-top ">
-      <nav className="d-flex justify-content-between pt-2 pb-2 mb-3">
+      <nav className="d-flex justify-content-between pt-3 pb-3 mb-3">
         <div>
           <Link
             to={"/"}

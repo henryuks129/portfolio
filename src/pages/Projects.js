@@ -28,7 +28,7 @@ const Projects = () => {
                 <li className=' list-unstyled-none'>03 -- Contact</li>
               </ul>
             </div>
-            <div>
+            <div className='w-100'>
               <Lottie animationData={workstation} className='lottie-animated-image' />
             </div>
           </div>
