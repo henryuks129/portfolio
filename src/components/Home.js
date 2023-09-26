@@ -20,8 +20,8 @@ const Home = () => {
   return (
     <div className='home-main'>
       <Navbar/>
-      <div className='container d-flex mt-4'>
-       <div className='text-white pt-5 mt-5 home-body w-100'>
+      <div className='container d-flex mt-3'>
+       <div className='text-white pt-5 mt-4 home-body w-100'>
         <button className='pushable'><span className='front'>Full Stack Developer</span></button>
         <h1 className='mt-3'>UKIWA HENRY OSOSE</h1>
         <p>Hello there, I'm Henry a developer, which basically means I turn caffeine into code and pizza into bug fixes. My superpower? Turning error messages into profanity without waking up my cat. So, if you need something to be magically transformed into a digital wonder or just want to discuss the latest meme trends, I'm your friendly neighborhood developer, here to save your day, one semicolon at a time!<span>(incase you've got any empty canvas laying around).</span> Let's connect!</p>
