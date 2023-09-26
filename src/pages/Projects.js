@@ -23,9 +23,9 @@ const Projects = () => {
           <div className='d-flex mt-4'>
             <div className=''>
               <ul className=''>
-                <li className='pb-4 list-unstyled-none'>01 -- Projects</li>
-                <li className='pb-4 list-unstyled-none'>02 -- Download Resume</li>
-                <li className=' list-unstyled-none'>03 -- Contact</li>
+                <li className='pb-4 list-unstyled active'>01 -- Projects</li>
+                <li className='pb-4 list-unstyled'>02 -- Download Resume</li>
+                <li className=' list-unstyled'>03 -- Contact</li>
               </ul>
             </div>
             <div className='w-100'>
@@ -36,11 +36,11 @@ const Projects = () => {
             <Footer/>
           </div>
         </div>
-        <div className='w-100 project-inner-body'>
+        <div className='w-100 project-inner-body container'>
           <section id="projects" className="project-display-section mt-5 w-100">
             <div className="taskduty w-100 p-2">
               <div>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>Task Manager - To-Do List Website</h3>
               <div className='d-flex gap-2 justify-content-between '>
@@ -58,7 +58,7 @@ const Projects = () => {
             </div>
             <div className='jazzy-burger w-100 p-2'>
             <div>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>Jazzy Burger - Jazzy Burger Clone Website</h3>
               <div className='d-flex gap-2 justify-content-between '>
@@ -76,7 +76,7 @@ const Projects = () => {
             </div>
             <div className='perfumery w-100 p-2'>
             <div>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>Perfumery - E-commerce Website</h3>
               <div className='d-flex gap-2 justify-content-between '>
@@ -94,14 +94,14 @@ const Projects = () => {
             </div>
             <div className='tradexpress w-100 p-2'>
             <div>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>TradExpress - Crypto Website</h3>
               <div className='d-flex gap-2 justify-content-between '>
                 <div className='d-flex gap-2 align-items-center'>
                   <img src={githubicon} alt=""/>
                   <p className="pt-3">Github</p>
-                  <a href="https://github.com/henryuks129/tradexpress" target='_blank' rel='noreferrer noopener'><img src={sentroute} alt=""/></a>
+                  <a href="https://github.com/henryuks129/trad-express" target='_blank' rel='noreferrer noopener'><img src={sentroute} alt=""/></a>
                 </div>
                 <div className='d-flex gap-2 align-items-center'>
                   <img src={websiteicon} alt=''/>
@@ -112,7 +112,7 @@ const Projects = () => {
             </div>
             <div className='image-gallery w-100 p-2'>
             <div>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>Antique Galleria - Image Gallery Website</h3>
               <div className='d-flex gap-2 justify-content-between '>
@@ -130,7 +130,7 @@ const Projects = () => {
             </div>
             <div className='movie-display-gallery w-100 p-2'>
             <div className=''>
-                <p>React, Bootstrap & CSS</p>
+                <p className='project-text-body'>React, Bootstrap & CSS</p>
               </div>
               <h3 className='pt-4 pb-4'>Movie Display - Movie Display Website</h3>
               <div className='d-flex gap-2 justify-content-between my-5'>
