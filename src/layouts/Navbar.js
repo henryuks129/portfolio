@@ -15,7 +15,7 @@ const Navbar = () => {
             <h4 className="text-white pt-2">HENRY.</h4>
           </Link>
         </div>
-        <div className="d-none d-lg-block">
+        <div className="">
           <ul className="list-unstyled d-flex gap-5 pt-2">
             <Link to={"/Projects"} className="text-decoration-none text-white">
               <li>Projects</li>
@@ -28,9 +28,9 @@ const Navbar = () => {
             </Link>
           </ul>
         </div>
-        <div className="d-lg-none">
+        {/* <div className="d-lg-none">
           <img src={hamburger} alt="menu" />
-        </div>
+        </div> */}
       </nav>
     </div>
   );
