@@ -17,9 +17,9 @@ import imagegallery from '../assest/imagegallery.jpg'
 const Projects = () => {
   return (
     <div className="container text-white d-flex project-main w-100">
-      <div className="project-body-intro w-100 d-none d-lg-block">
+      <div className="project-body-intro w-100 d-none d-lg-block mb-5">
         <header className="mt-4">
-          <Link to={"/"} className="text-decoration-none">
+          <Link to={"/"} className="text-decoration-none cursor-pointer">
             <h1 className="header-name mb-4">HENRY.</h1>
           </Link>
         </header>
@@ -41,17 +41,17 @@ const Projects = () => {
               <li className="pb-4 list-unstyled active">01 -- Projects</li>
             </Link>
             <Link to={"/Downloads"} className="text-decoration-none text-white">
-              <li className="pb-4 list-unstyled">02 -- Download Resume</li>
+              <li className="pb-4 list-unstyled">02 -- Resume</li>
             </Link>
             <Link to={"/Contacts"} className="text-decoration-none text-white">
               <li className=" list-unstyled">03 -- Contact</li>
             </Link>
           </div>
           <div className="w-100">
-            <Lottie
+            {/* <Lottie
               animationData={workstation}
               className="lottie-animated-image"
-            />
+            /> */}
           </div>
         </div>
         <div>
@@ -59,7 +59,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="w-100 project-inner-body container">
-        <section id="projects" className="project-display-section mt-5 w-100">
+        <section id="projects" className="project-display-section mt-5 mb-4 w-100">
           <div className="taskduty w-100">
               <img src={taskduty} alt="" className="img-fluid w-100"/>
             <div className="p-2">
@@ -183,9 +183,9 @@ const Projects = () => {
               <div className="d-flex gap-2 align-items-center">
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
-                <a href="">
+                {/* <a href="#"> */}
                   <img src={sentroute} alt="" />
-                </a>
+                {/* </a> */}
               </div>
             </div>
             </div>

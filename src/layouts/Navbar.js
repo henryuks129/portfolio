@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
-import hamburger from "../assest/hamburger.svg";
+// import hamburger from "../assest/hamburger.svg";
 
 const Navbar = () => {
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
             <Link to={"/Projects"} className="text-decoration-none text-white">
               <li>Projects</li>
             </Link>
-            <Link to={"/"} className="text-decoration-none text-white">
+            <Link to={"/Downloads"} className="text-decoration-none text-white">
               <li>Resume</li>
             </Link>
             <Link to={"/Contacts"} className="text-decoration-none text-white">

@@ -1,16 +1,16 @@
 .contact-body{
     height: 100vh;
-    /* overflow-y: auto; */
+    overflow-y: auto;
     scroll-behavior: smooth;
 }
 
 .input-body{
     background: #2D2D2D;
     height: 100vh;
-    /* overflow-y: auto; */
-    /* scroll-behavior: smooth; */
+    overflow-y: auto;
+    scroll-behavior: smooth;
     /* max-width: 600px; */
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .input-body::-webkit-scrollbar{
     display:none;
@@ -77,10 +77,10 @@ font-family: Lato;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+/* line-height: normal; */
 outline: none;
-/* padding: 15px; */
-padding-top: 0px;
+padding: 15px;
+/* padding-bottom: 280px; */
 border: none;
 }
 

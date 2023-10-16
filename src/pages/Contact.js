@@ -16,11 +16,11 @@ const Contact = () => {
   const navigate = useNavigate()
   return (
     <div className=' text-white d-flex project-main w-100 contact-body'>
-        <div className="w-100 container d-none d-lg-block">
+        <div className="w-100 container d-none d-lg-block project-body-intro">
         <header className="mt-4">
-          <Link to={"/"} className="text-decoration-none">
+          {/* <Link to={"/"} className="text-decoration-none cursor-pointer"> */}
             <h1 className="header-name mb-4">HENRY.</h1>
-          </Link>
+          {/* </Link> */}
         </header>
         <button className="fullstack-button mb-4">Full Stack Developer</button>
         <div className="mb-4">
@@ -40,7 +40,7 @@ const Contact = () => {
               <li className="pb-4 list-unstyled text-white">01 -- Projects</li>
             </Link>
             <Link to={"/Downloads"} className="text-decoration-none text-white">
-              <li className="pb-4 list-unstyled">02 -- Download Resume</li>
+              <li className="pb-4 list-unstyled w-100">02 -- Resume</li>
             </Link>
             <Link to={"/Contacts"} className="text-decoration-none text-white">
               <li className=" list-unstyled active">03 -- Contact</li>
