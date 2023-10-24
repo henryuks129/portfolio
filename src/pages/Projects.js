@@ -48,10 +48,10 @@ const Projects = () => {
             </Link>
           </div>
           <div className="w-100">
-            {/* <Lottie
+            <Lottie
               animationData={workstation}
               className="lottie-animated-image"
-            /> */}
+            />
           </div>
         </div>
         <div>
@@ -183,9 +183,9 @@ const Projects = () => {
               <div className="d-flex gap-2 align-items-center">
                 <img src={websiteicon} alt="" />
                 <p className="pt-3">Website</p>
-                {/* <a href="#"> */}
+                 <a href="https://google.com">
                   <img src={sentroute} alt="" />
-                {/* </a> */}
+                </a>
               </div>
             </div>
             </div>

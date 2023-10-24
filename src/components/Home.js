@@ -14,7 +14,7 @@ import css from '../assest/css.svg'
 import '../styles/Home.css'
 import Footer from '../layouts/Footer'
 import Navbar from '../layouts/Navbar'
-import '../styles/Home.css'
+// import '../styles/Home.css'
 
 const Home = () => {
   return (

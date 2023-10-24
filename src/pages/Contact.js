@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import React,{useEffect, useState} from 'react'
 import Lottie from 'lottie-react'
 import working from '../assest/animation_ln0q95xh.json'
 import { Link,useNavigate } from 'react-router-dom'
@@ -10,17 +9,22 @@ import '../styles/Contacts.css'
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error, setError] = useState('')
-  const [loading, setLoading] = useState(false)
+  // const [error, setError] = useState('')
+  // const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState("")
-  const navigate = useNavigate()
+  // const navigate = useNavigate()
+  // useEffect(()=>{
+  //   if(password <= 6){
+  //     alert('password is less that 6')
+  //   }
+  // })
   return (
     <div className=' text-white d-flex project-main w-100 contact-body'>
         <div className="w-100 container d-none d-lg-block project-body-intro">
         <header className="mt-4">
-          {/* <Link to={"/"} className="text-decoration-none cursor-pointer"> */}
+          <Link to={"/"} className="text-decoration-none cursor-pointer">
             <h1 className="header-name mb-4">HENRY.</h1>
-          {/* </Link> */}
+          </Link>
         </header>
         <button className="fullstack-button mb-4">Full Stack Developer</button>
         <div className="mb-4">

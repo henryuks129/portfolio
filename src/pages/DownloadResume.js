@@ -11,7 +11,7 @@ const DownloadResume = () => {
     <div className="container">
       <Navbar />
       <div className="">
-        {/* <Lottie animationData={design} className="animated-design img-fluid" /> */}
+        <Lottie animationData={design} className="animated-design img-fluid" />
       </div>
     </div>
   );
